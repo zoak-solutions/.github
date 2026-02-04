@@ -1,6 +1,6 @@
 # Welcome to ZOAK Solutions 👋
 
-![ZOAK Banner](https://drive.usercontent.google.com/download?id=1zdkeZErsvPxG6tjE1WKd5jC2Ud4Z_1oH&export=download&authuser=0)
+![ZOAK Banner](https://raw.githubusercontent.com/OrganisationServiceManagement/.github/main/assets/osm-banner.svg)
 
 ## About Us
 
