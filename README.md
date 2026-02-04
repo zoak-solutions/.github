@@ -100,6 +100,6 @@ ZOAK's future development efforts are focused on:
 **Organisation**: ZOAK Pty Ltd  
 **ABN/ACN**: 68 161 531 880  
 **Website**: [zoak.solutions](https://zoak.solutions)  | [osm.dev](https://osm.dev)
-**Email**: [admin@zoak.au](mailto:admin@zoak.au).
+**Email**: [admin@zoak.solutions](mailto:admin@solutions).
 
 ---
