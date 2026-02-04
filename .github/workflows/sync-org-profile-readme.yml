@@ -1,0 +1,44 @@
+name: Sync org profile README from canonical README
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - README.md # canonical source in this repo
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-org-profile-readme
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Copy canonical README into profile README
+        run: |
+          set -euo pipefail
+          mkdir -p profile
+          cp README.md profile/README.md
+
+      - name: Commit & push if changed
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- profile/README.md; then
+          echo "profile/README.md already up to date.. hmm"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/README.md
+          git commit -m "chore: sync profile README from canonical README"
+          git push
