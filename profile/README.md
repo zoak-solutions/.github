@@ -7,7 +7,6 @@
 <p align="center">
   <em>Delivering secure, scalable, and resilient solutions for mission-critical services</em>
 </p>
----****
 
 ## 🛍️ Overview
 
