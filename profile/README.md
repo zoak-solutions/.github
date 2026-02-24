@@ -1,4 +1,13 @@
-[#]([url](url)) ZOAK Solutions
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OrganisationServiceManagement/.github/main/assets/osm-logo.svg" alt="ZOAK Solutions" width="100%">
+</p>
+
+<h1 align="center">ZOAK Solutions)</h1>
+
+<p align="center">
+  <em>Delivering secure, scalable, and resilient solutions for mission-critical services</em>
+</p>
+---****
 
 ## 🛍️ Overview
 
