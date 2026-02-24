@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OrganisationServiceManagement/.github/main/assets/osm-logo.svg" alt="ZOAK Solutions" width="100%">
+  <img src="https://raw.githubusercontent.com/OrganisationServiceManagement/.github/refs/heads/main/assets/ZOAK%2BOSMBanner-2026.svg" alt="ZOAK Solutions" width="100%">
 </p>
 
-<h1 align="center">ZOAK Solutions)</h1>
+<h1 align="center">ZOAK Solutions</h1>
 
 <p align="center">
   <em>Delivering secure, scalable, and resilient solutions for mission-critical services</em>
